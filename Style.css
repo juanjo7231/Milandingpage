@@ -1,6 +1,6 @@
 /* Creación de variables a  utilizar */
 :root {
-    --primary-color: #2271B3;
+    --primary-color: #51D1F6;
     --secondary-color: #8A9597;
     --text-color: #333333;;
     --background-color: #f4f4f4;
@@ -9,7 +9,7 @@
 
 
 body {
-    font-family: "inter", sans-serif;
+    font-family:"Iceberg";
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -126,9 +126,9 @@ body {
 .profile-photo {
     width: 250px;
     height: 250px;
-    border-radius: 90%;
+    border-radius: 30%;
     object-fit: cover;
-    border: 5px solid var(--primary-color);
+    border: 8px solid var(--primary-color);
     margin-bottom: 1rem;
 }
 
@@ -140,7 +140,7 @@ body {
 }
 
 .profile-summary {
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto 2.5rem;
 }
 
@@ -157,7 +157,7 @@ del area de Estudios realizados y experiencia laboral*/
     padding: 1rem;
     margin-bottom: 1rem;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    text-align: left;
+    text-align: justify;
 }
 
 .list-inline li {
@@ -189,7 +189,7 @@ del area de Estudios realizados y experiencia laboral*/
 
 /*Sección para cambiar el color a la letra o fondo de cada link en el Linktree */
 .linktree-link {
-    background-color: rgb(220, 200, 150);
+    background-color: #F3464A;
     color: rgb(250, 250, 250);
     text-decoration: none;
     padding: 1rem 2rem;
@@ -223,7 +223,7 @@ del area de Estudios realizados y experiencia laboral*/
 
 /*Sección para cambiar el color del botón de enviar mensaje y el color de la letra */
 .submit-button {
-    background-color: var(--primary-color);
+    background-color: #F3464A;
     color: white;
     border: none;
     padding: 1rem;
@@ -278,6 +278,7 @@ del area de Estudios realizados y experiencia laboral*/
     }
 
 }
+
 
 
 
